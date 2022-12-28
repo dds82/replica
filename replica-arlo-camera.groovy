@@ -16,7 +16,7 @@ public static String version() {return "1.2.0"}
 
 metadata 
 {
-    definition(name: "Replica Arlo Camera", namespace: "replica", author: "dsegall", importUrl:"")
+    definition(name: "Replica Arlo Camera", namespace: "replica", author: "dsegall", importUrl:"https://raw.githubusercontent.com/dds82/replica/main/replica-arlo-camera.groovy")
     {
         capability "Actuator"
         capability "Battery"
